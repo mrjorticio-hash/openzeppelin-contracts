@@ -209,4 +209,4 @@ jobs:
               head: process.env.MERGE_BRANCH,
               base: 'master',
               title: '${{ format('Merge {0} branch', github.ref_name) }}'
-            });
+            
